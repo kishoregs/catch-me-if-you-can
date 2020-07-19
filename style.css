@@ -1,0 +1,66 @@
+body {
+  background-image: url(./oliver-ash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1,
+h2 {
+  color: greenyellow;
+}
+
+.square {
+  width: 150px;
+  height: 150px;
+  border-style: groove;
+  border-color: greenyellow;
+}
+
+.grid {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-content: center;
+  width: auto;
+}
+
+.mole {
+  background-image: url("mole2.gif");
+  background-size: cover;
+}
+/*button {
+  background-color: gray;
+  font-size: large;
+  font-size: large;
+  width: 100px;
+  height: 45px;
+  color: white;
+  text-align: center;
+}*/
+
+button {
+  background-color: greenyellow;
+  color: black;
+  padding: 5px 5px;
+  font-size: large;
+  width: 100px;
+  height: 40px;
+}
+
+button:hover {
+  border: 1px solidgreen;
+  background-color: green;
+  color: black;
+  padding: 5px 10px;
+}
+
+button:disabled,
+button[disabled] {
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #666666;
+}
+
+div {
+  padding: 10px 10px;
+}
